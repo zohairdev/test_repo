@@ -15,7 +15,7 @@ on:
       
 jobs:
   tests_manual_workflow:
-    runs-on: ubuntu-lateststeps:
+    runs-on: ubuntu-latest
     steps:
         - run: >
               echo "User ${{ github.event.inputs.username }} ran a workflow manually."
