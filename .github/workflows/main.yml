@@ -17,9 +17,9 @@ jobs:
   tests_manual_workflow:
     runs-on: ubuntu-latest 
     steps:
-        - run: >
-              echo "User ${{ github.event.inputs.username }} ran a workflow manually."
-              echo "Because ${{ github.event.inputs.reason }}."
+    - run: >
+          echo "User ${{ github.event.inputs.username }} ran a workflow manually."
+          echo "Because ${{ github.event.inputs.reason }}."
     
         
   
